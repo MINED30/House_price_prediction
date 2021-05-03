@@ -38,9 +38,9 @@ Notebook 폴더에서 EDA를 통한 시각화자료를 볼 수 있습니다.
 
 ### House-Price-Prediction
 #### Searching
-![image](https://user-images.githubusercontent.com/73981982/112859396-c0217880-90ed-11eb-8072-175a9f24ac9c.png)
-![image](https://user-images.githubusercontent.com/73981982/112859970-58b7f880-90ee-11eb-83f4-f14d8307625b.png)
-![image](https://user-images.githubusercontent.com/73981982/112860012-64a3ba80-90ee-11eb-9dc9-75a0cc5fb5de.png)
+<img src="https://user-images.githubusercontent.com/73981982/112859396-c0217880-90ed-11eb-8072-175a9f24ac9c.png width="60%"/>
+<img src="https://user-images.githubusercontent.com/73981982/112859970-58b7f880-90ee-11eb-83f4-f14d8307625b.png width="60%"/>
+<img src="https://user-images.githubusercontent.com/73981982/112860012-64a3ba80-90ee-11eb-9dc9-75a0cc5fb5de.png width="60%"/>
 
 ### History
 ![image](https://user-images.githubusercontent.com/73981982/112860358-b5b3ae80-90ee-11eb-9b83-fd53b593ffaf.png)
@@ -50,10 +50,6 @@ Notebook 폴더에서 EDA를 통한 시각화자료를 볼 수 있습니다.
 
 ## structure
 <center><img src="https://user-images.githubusercontent.com/73981982/112858380-c400cb00-90ec-11eb-8bc0-8c1145a5b041.png" width="500"></center>
-
-
-![image](https://user-images.githubusercontent.com/73981982/108994263-e6af5680-76de-11eb-99db-5d48fcb65172.png)
-
 
 ## 파일 설명
 - 01_Data_Wrangling.ipynb : 데이터 수집하고 랭글링, 특성공학을 진행
