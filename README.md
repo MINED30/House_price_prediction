@@ -10,16 +10,18 @@
 
 :thumbsup: Low MAE, High R2 in test set (MAE = 2805.28, R2 = 0.9917)
 
+:bar_chart: Various visualization
+
 :computer:  [WEB page](https://house-predction.herokuapp.com/)
 
 
 
 ## Dataset
-![image](https://user-images.githubusercontent.com/73981982/116913564-9d522900-ac84-11eb-9f85-0919af5f92f9.png)
+<img src="https://user-images.githubusercontent.com/73981982/116913564-9d522900-ac84-11eb-9f85-0919af5f92f9.png" width="90%"/>
 2018.01 ~ 2021.02, 약 245,000건의 데이터
 
 ## Schema
-![schema](https://user-images.githubusercontent.com/73981982/112970972-b64d5300-9189-11eb-96ec-54df609c7be0.png)
+<img src="https://user-images.githubusercontent.com/73981982/112970972-b64d5300-9189-11eb-96ec-54df609c7be0.png" width="90%"/>
 
 ## Visualization
 Notebook 폴더에서 EDA를 통한 시각화자료를 볼 수 있습니다.
