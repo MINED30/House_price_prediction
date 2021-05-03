@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'SDSamliphopangche_Outline';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/SDSamliphopangche_Outline.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{ 
+    font-family:'NanumGothic'; 
+    src:url('fonts/NanumGothic.eot'); 
+    src:url('fonts/NanumGothic.eot?#iefix') format(‘embedded-opentype’), 
+    url('fonts/NanumGothic.woff') format(‘woff’), 
+    url('fonts/NanumGothic.ttf') format('truetype'), 
+    url('fonts/NanumGothic.svg') format('svg'); }
+
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+@font-face {
+    font-family: 'yg-jalnan';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GongGothicMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    font-family:'NanumGothic','ariel';
+    background-color: mediumaquamarine;
+}
+.welcome-logo{
+    font-family:'yg-jalnan';
+    width:300px;
+    margin:0px auto 30px auto;
+    color:white;
+    text-align:center;
+}
+.main-text{
+    font-size: 50px;
+    margin:0;
+}
+
+.middle-text{
+    font-family: 'GongGothicMedium';
+    margin:0;
+}
+
+.so-cute-kitty {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: so-cute-kitty;
+    animation-duration: 30s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+          transform:rotate(90deg);
+     -moz-transform: scaleX(-1); 
+       -o-transform: scaleX(-1); 
+  -webkit-transform: scaleX(-1); 
+          transform: scaleX(-1);   
+         filter: FlipH;
+    -ms-filter: "FlipH";
+  }
+
+
+  @keyframes so-cute-kitty {
+    0%   {left:0px; top:0px;}
+    100% {left:900px; top:0px;}
+  }

@@ -1,0 +1,83 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<link rel="stylesheet" type="text/css" href="static/homepage.css">
+{% endblock %}
+
+{% block alert %}
+    {% if alert_msg %}
+    <div class="alert alert-{{ alert_msg.type }}" role="alert">
+    {{ alert_msg.msg }}
+    </div>
+    {% endif %}
+{% endblock %}
+
+
+{% block main_body %}
+<div style="margin: 100px auto 30px auto;width: fit-content;padding-right: 75px;">
+	<img src="https://media4.giphy.com/media/14xh6tNvgQaAJwEw88/giphy.gif?cid=ecf05e47d8uz4fux59bp1vd2dv8035zl17vu8zudw0pkas53&amp;rid=giphy.gif" style="float: left; height: 200px;">
+	<div class="welcome-logo" style="display: inline-block;">
+		<h1 class="main-text">서울집값예측</h1>
+		<p class="middle-text">———　집을사려는 모든이들에게　———</p>
+		<h1 class="main-text">프로그램</h1>
+	</div>
+</div>
+
+<div class="container">
+    <div class="row">
+		<div class="panel panel-default widget" id="reply-area" style="margin:50px">
+			<div class="panel-heading" style="background-color:#d4edda">
+				<span class="glyphicon glyphicon-comment"></span>
+				<h3 class="panel-title">방명록</h3>
+			</div>
+			{% if repl %}
+			<div class="panel-body">
+				<ul class="list-group">
+					{% for re in repl %}
+					<li class="list-group-item">
+						<div class="row">
+							<div class="col-xs-10 col-md-11">
+								<div>
+									<h3 class="inline-bl" style="margin:0;padding-bottom:8px;font-size: 20px;font-weight: bold;">
+										{{ re.reply_id }} {{ re.userid }}
+									</h3>
+									<div class="mic-info inline-bl">
+										{{ re.time }}
+									</div>
+									<div style="float: right;">
+										<button type="button" onclick="location.href='/delete/{{re.reply_id}}'" style="background-color: #eb4034;
+										border-radius: 8px;
+										font-size: 15px;
+										color: white;
+										border: 2px solid whitesmoke;
+										vertical-align: middle;
+										padding: 3px 12px;">Delete</button>
+									</div>
+								</div>
+								<div class="comment-text">
+									{{ re.replies }}
+								</div>
+							</div>
+						</div>
+					</li>
+					{% endfor %}
+				</ul>
+			</div>
+			{% endif %}
+			<div class="col">
+					<div class="panel-body">
+						<form method="POST" role="form">
+							<fieldset>
+								<div class="form-group">
+									<textarea name="reply" class="form-control" rows="3" placeholder="Write in your wall" autofocus=""></textarea>
+								</div>
+								<button type="submit" class="[ btn btn-success ]" data-loading-text="Loading..." style="margin:15px;">Post reply</button>
+							</fieldset>
+						</form>
+					</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+{% endblock %}
