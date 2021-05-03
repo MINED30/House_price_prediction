@@ -6,7 +6,7 @@
 
 ### *Feature*         
 
-:zap: Uses Light GBM 
+:zap: Used Light GBM to predict house price
 
 :thumbsup: Low MAE, High R2 in test set (MAE = 2805.28, R2 = 0.9917)
 
