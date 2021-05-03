@@ -31,19 +31,21 @@ Notebook 폴더에서 EDA를 통한 시각화자료를 볼 수 있습니다.
 
 ## Page Intorduction
 ### Signin
-![image](https://user-images.githubusercontent.com/73981982/112858672-0d511a80-90ed-11eb-88e3-58b6f6db118a.png)
+<img src="https://user-images.githubusercontent.com/73981982/112858672-0d511a80-90ed-11eb-88e3-58b6f6db118a.png" width="60%"/>
 
 ### Home
-![image](https://user-images.githubusercontent.com/73981982/112859018-66b94980-90ed-11eb-99e3-950eff378bff.png)
+<img src="https://user-images.githubusercontent.com/73981982/112859018-66b94980-90ed-11eb-99e3-950eff378bff.png" width="60%"/>
 
 ### House-Price-Prediction
 #### Searching
-<img src="https://user-images.githubusercontent.com/73981982/112859396-c0217880-90ed-11eb-8072-175a9f24ac9c.png width="60%"/>
-<img src="https://user-images.githubusercontent.com/73981982/112859970-58b7f880-90ee-11eb-83f4-f14d8307625b.png width="60%"/>
-<img src="https://user-images.githubusercontent.com/73981982/112860012-64a3ba80-90ee-11eb-9dc9-75a0cc5fb5de.png width="60%"/>
+<img src="https://user-images.githubusercontent.com/73981982/112859396-c0217880-90ed-11eb-8072-175a9f24ac9c.png" width="60%"/>
+
+<img src="https://user-images.githubusercontent.com/73981982/112859970-58b7f880-90ee-11eb-83f4-f14d8307625b.png" width="60%"/>
+
+<img src="https://user-images.githubusercontent.com/73981982/112860012-64a3ba80-90ee-11eb-9dc9-75a0cc5fb5de.png" width="60%"/>
 
 ### History
-![image](https://user-images.githubusercontent.com/73981982/112860358-b5b3ae80-90ee-11eb-9b83-fd53b593ffaf.png)
+<img src="https://user-images.githubusercontent.com/73981982/112860358-b5b3ae80-90ee-11eb-9b83-fd53b593ffaf.png" width="60%"/>
 
 
 
