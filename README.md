@@ -29,3 +29,23 @@ https://house-predction.herokuapp.com/
 
 ## structure
 <center><img src="https://user-images.githubusercontent.com/73981982/112858380-c400cb00-90ec-11eb-8bc0-8c1145a5b041.png" width="500"></center>
+
+
+![image](https://user-images.githubusercontent.com/73981982/108994263-e6af5680-76de-11eb-99db-5d48fcb65172.png)
+
+
+## 파일 설명
+- 01_Data_Wrangling.ipynb : 데이터 수집하고 랭글링, 특성공학을 진행
+- 02_Exploratory_Data_Analysis.ipynb : 데이터셋을 시각화
+- 03_LightGBM_CV.ipynb : 모델선정 및 하이퍼파라미터 튜닝
+- 04_Interpretation.ipynb : 모델 Interpretation
+- 05_Summary.ipynb : 모델 Intrepretation에서 시각화 못한것만 다시 시각화
+
+## 목차
+1. Background
+2. Introduction
+3. Analysis
+4. Modeling
+5. Prediction
+6. Interpretation
+
