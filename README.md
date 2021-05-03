@@ -15,7 +15,18 @@
 
 최근 모든 자산가격이 상승하면서 집이 없던 사람들은 벼락거지가 되었다라는 말이 나오고 있습니다. 부동산에 많은 관심이 쏠린 지금, 집을 사고 파는 과정에서 생기는 부작용을 방지하고자 예측프로그램을 만들었습니다. 개인에게는 사기를 당하지 않도록하는 것이 이 서비스의 목적이며, 정부 및 기관에게는 집값담합을 방지하고 다운계약서가 작성된 거래를 색출해서 탈세를 막는데 목적이 있습니다.
 
-[양평동6가, 용산동2가, 노고산동, 양평동4가, 증산동, 행촌동, 우면동, 창신동, 한강로2가, 사근동, 영등포동3가]는 데이터가 충분히 확보되지 않아 예측이 정확하지 않을 수 있습니다. 이 외 법정동에서 예측가와 실거래가의 차이는 평균 5% 미만입니다. 
+
+#### Notebook dir에서는 데이터의 수집부터 모델 interpretation을 살펴볼 수 있습니다.
+|file|contents|
+|---|---|
+|01_Data_Wrangling.ipynb | 데이터를 수집하고 랭글링, 특성공학을 진행하였습니다.|
+|02_Exploratory_Data_Analysis.ipynb | 데이터셋을 시각화|
+|03_LightGBM_CV.ipynb | 모델선정 및 하이퍼파라미터 튜닝|
+|04_Interpretation.ipynb | 모델 Interpretation|
+|05_Summary.ipynb | 위의 절차를 수행|
+
+**NOTE** [양평동6가, 용산동2가, 노고산동, 양평동4가, 증산동, 행촌동, 우면동, 창신동, 한강로2가, 사근동, 영등포동3가]는 데이터가 충분히 확보되지 않아 예측이 정확하지 않을 수 있습니다. 이 외 법정동에서 예측가와 실거래가의 차이는 평균 5% 미만입니다. 
+
 
 ## Dataset
 <img src="https://user-images.githubusercontent.com/73981982/116913564-9d522900-ac84-11eb-9f85-0919af5f92f9.png" width="90%"/>
@@ -66,11 +77,5 @@ Landing page는 로그인창입니다.
 ## structure
 <center><img src="https://user-images.githubusercontent.com/73981982/112858380-c400cb00-90ec-11eb-8bc0-8c1145a5b041.png" width="500"></center>
 
-## Notebook
-- 01_Data_Wrangling.ipynb : 데이터를 수집하고 랭글링, 특성공학을 진행
-- 02_Exploratory_Data_Analysis.ipynb : 데이터셋을 시각화
-- 03_LightGBM_CV.ipynb : 모델선정 및 하이퍼파라미터 튜닝
-- 04_Interpretation.ipynb : 모델 Interpretation
-- 05_Summary.ipynb : 위의 절차를 수행
 
 
