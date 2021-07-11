@@ -9,15 +9,15 @@
 
 :zap: Used XGBoost to predict house price
 
-:thumbsup: Tried 3 Models (Randomforest, XGBoost, LGBM)
+:three: Tried 3 Models (Randomforest, XGBoost, LGBM)
   
 :thumbsup: Low MAE, High R2 in test set (MAE = 1937.82, R2 = 0.9915)
 
 :bar_chart: Various visualization for EDA & Model Intepretation
 
-:computer:  Distribution with Flask & Heroku
+:ringed_planet:  Distribution with Flask & Heroku
   
-:computer:  Database with SQL
+:elephant:  PostgreSQL
 
 :computer:  [WEB page](https://house-predction.herokuapp.com/)
 
