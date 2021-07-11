@@ -36,6 +36,14 @@
 | 인구관련지표    | 출생아수(명), 사망자수(명), 혼인건수(건), 이혼건수(건)               | KOSIS 국가통계포털               |
   
 
+## Schema
+<img src="https://user-images.githubusercontent.com/73981982/112970972-b64d5300-9189-11eb-96ec-54df609c7be0.png" width="90%"/>
+
+## Visualization
+![image](https://user-images.githubusercontent.com/73981982/125201534-99f1a400-e2aa-11eb-894d-63180ab44082.png)
+노트북 파일에서 EDA 및 Model Interpretation에 관련한 시각화를 확인할 수 있습니다.
+
+
 ### Notebook
 |filename|contents|
 |---|---|
@@ -44,50 +52,12 @@
 |House_price_prediction_03_Model_CV.ipynb | 베이스라인 및 최종모델 선정 (LinearRegression, RandomForest, XGBoost, LightGBM)|
 |House_price_prediction_04_Model_Interpretation.ipynb | 시각화를 통한 모델의 이해 (Feature Importance, PDP & ICE Curve, SHAP) |
 
-
-## Schema
-<img src="https://user-images.githubusercontent.com/73981982/112970972-b64d5300-9189-11eb-96ec-54df609c7be0.png" width="90%"/>
-
-## Visualization
-Notebook 폴더에서 EDA를 통한 시각화자료를 볼 수 있습니다.
-
-예시 :
-
-<img src="https://user-images.githubusercontent.com/73981982/116913901-020d8380-ac85-11eb-99ca-09f7a7420a30.png" width="45%"/> <img src="https://user-images.githubusercontent.com/73981982/116914333-91b33200-ac85-11eb-930c-2049432df032.png" width="45%"/>
-
-
 ## Page Intorduction
-### Signin
-<img src="https://user-images.githubusercontent.com/73981982/112858672-0d511a80-90ed-11eb-88e3-58b6f6db118a.png" width="60%"/>
-
-Landing page는 로그인창입니다.
-
-### Home
-<img src="https://user-images.githubusercontent.com/73981982/112859018-66b94980-90ed-11eb-99e3-950eff378bff.png" width="60%"/>
-
-로그인을 하면 Home으로 들어갑니다. 이 페이지에서는 댓글시스템을 구현하였습니다.
+### Signin & Home
+![image](https://user-images.githubusercontent.com/73981982/125201186-eb992f00-e2a8-11eb-9dbf-cc81eb0cc73c.png)
+랜딩페이지는 로그인화면이며, 로그인을 하면 Home으로 이동합니다. 이 페이지에서는 댓글시스템을 구현하였습니다.
 
 ### House-Price-Prediction
-<img src="https://user-images.githubusercontent.com/73981982/112859396-c0217880-90ed-11eb-8072-175a9f24ac9c.png" width="60%"/>
-
-아파트 이름을 적으면 다음페이지로 가게 됩니다. (클릭시 확대)
-
-<img src="https://user-images.githubusercontent.com/73981982/112859970-58b7f880-90ee-11eb-83f4-f14d8307625b.png" width="60%"/>
-
-추가적인 사항을 기재하면 돌아가는 고양이화면이 뜨면서 모델이 예측을 수행합니다.
-
-<img src="https://user-images.githubusercontent.com/73981982/112860012-64a3ba80-90ee-11eb-9dc9-75a0cc5fb5de.png" width="60%"/>
-
-예측한 결과입니다.
-
-### History
-<img src="https://user-images.githubusercontent.com/73981982/112860358-b5b3ae80-90ee-11eb-9b83-fd53b593ffaf.png" width="60%"/>
-
-히스토리 페이지는 예측을 했던 기록을 담는 페이지입니다.
-
-
-## structure
-<center><img src="https://user-images.githubusercontent.com/73981982/112858380-c400cb00-90ec-11eb-8bc0-8c1145a5b041.png" width="500"></center>
-
-
+![image](https://user-images.githubusercontent.com/73981982/125201388-e25c9200-e2a9-11eb-9c21-53375e0c4878.png)
+아파트 이름을 적으면 다음페이지로 이동하게되고, 추가 사항을 기재하면 로딩화면 후 예측을 수행합니다. 결과는 History 페이지에 저장됩니다.
 
