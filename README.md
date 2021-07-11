@@ -49,7 +49,7 @@
 ### Notebook
 |filename|contents|
 |---|---|
-|House_price_prediction_01_DataCollection&Wrangling.ipynb | 데이터 수집 및 가공, 준비 |
+|House_price_prediction_01_DataCollection&Wrangling.ipynb | 데이터 수집 및 가공, 특성공학 수행 |
 |House_price_prediction_02_Exploratory_Data_Analysis.ipynb | 탐색적 데이터 분석|
 |House_price_prediction_03_Model_CV.ipynb | 베이스라인 및 최종모델 선정 (LinearRegression, RandomForest, XGBoost, LightGBM)|
 |House_price_prediction_04_Model_Interpretation.ipynb | 시각화를 통한 모델의 이해 (Feature Importance, PDP & ICE Curve, SHAP) |
