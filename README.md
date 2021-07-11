@@ -1,36 +1,48 @@
 # 서울집값예측모델
 
-<img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white"/>  <img src="https://img.shields.io/badge/html-E34F26?style=flat-square&logo=html5&logoColor=white"/>  <img src="https://img.shields.io/badge/css-1572B6?style=flat-square&logo=css3&logoColor=white"/>  <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=Bootstrap&logoColor=white"/>  <img src="https://img.shields.io/badge/Heroku-430098?style=flat-square&logo=Heroku&logoColor=white"/>  <img src="https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=PostgreSQL&logoColor=white"/> <img src="https://img.shields.io/badge/LigtGBM-F96F29?style=flat-square&logo=Microsoft&logoColor=white"/>  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a><a href="https://colab.research.google.com/github/MINED30/House_price_prediction_LGBM/blob/main/notebook/05_Summary.ipynb" target="_parent\">
+<img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white"/>  <img src="https://img.shields.io/badge/html-E34F26?style=flat-square&logo=html5&logoColor=white"/>  <img src="https://img.shields.io/badge/css-1572B6?style=flat-square&logo=css3&logoColor=white"/>  <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=Bootstrap&logoColor=white"/>  <img src="https://img.shields.io/badge/Heroku-430098?style=flat-square&logo=Heroku&logoColor=white"/>  <img src="https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=PostgreSQL&logoColor=white"/> <img src="https://img.shields.io/badge/LigtGBM-F96F29?style=flat-square&logo=Microsoft&logoColor=white"/>   <img src="https://img.shields.io/badge/Scikit_Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white"/>    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a><a href="https://colab.research.google.com/github/MINED30/House_price_prediction_LGBM/blob/main/notebook/05_Summary.ipynb" target="_parent\">
   
 
 ### *Feature*         
 
-:zap: Used Light GBM to predict house price
+:zap: Used XGBoost to predict house price
 
-:thumbsup: Low MAE, High R2 in test set (MAE = 2805.28, R2 = 0.9917)
+:thumbsup: Tried 3 Models (Randomforest, XGBoost, LGBM)
+  
+:thumbsup: Low MAE, High R2 in test set (MAE = 1937.82, R2 = 0.9915)
 
-:bar_chart: Various visualization
+:bar_chart: Various visualization for EDA & Model Intepretation
+
+:computer:  Distribution with Flask & Heroku
+  
+:computer:  Database with SQL
 
 :computer:  [WEB page](https://house-predction.herokuapp.com/)
 
-최근 모든 자산가격이 상승하면서 집이 없던 사람들은 벼락거지가 되었다라는 말이 나오고 있습니다. 부동산에 많은 관심이 쏠린 지금, 집을 사고 파는 과정에서 생기는 부작용을 방지하고자 예측프로그램을 만들었습니다. 개인에게는 사기를 당하지 않도록하는 것이 이 서비스의 목적이며, 정부 및 기관에게는 집값담합을 방지하고 다운계약서가 작성된 거래를 색출해서 탈세를 막는데 목적이 있습니다.
+:computer:  [Report](https://house-predction.herokuapp.com/)
 
+  
+최근 모든 자산가격이 상승하면서 집이 없던 사람들은 벼락거지가 되었다라는 말이 나오고 있습니다. 부동산에 많은 관심이 쏠린 지금, 집을 사고 파는 과정에서 생기는 부작용을 방지하고자 적정가를 제안하는 모델을 만들었습니다. 개인에게는 사기를 당하지 않도록하는 것이 이 서비스의 목적이며, 정부 및 기관에게는 집값담합을 방지하고 다운계약서가 작성된 거래를 색출해서 탈세를 막는데 목적이 있습니다.
+  
+### *Datasets* 
+  
+| 정보            | 수집한 지표                                                          | 출처                             |
+|-----------------|----------------------------------------------------------------------|----------------------------------|
+| 부동산관련 정보 | 지역코드, 법정동, 아파트, 전용면적, 층, 건축년도, 거래년도, 거래월   | 국토교통부 아파트매매 실거래자료 |
+| 유동성관련지표  | 외국인증권투자, 국고채 10년(평균) , 회사채 3년(평균) , CD 91물(평균) | E-나라지표                       |
+| 유동성관련지표  | DJI , IXIC , VIX , SSEC , DE30 , FCHI , NG, GC , CL , KRX            | FinanceData.KR                   |
+| 물가관련지표    | 소비자물가 , 농축수산물 , 공업제품 , 공공서비스 , 근원물가           | E-나라지표, KOSIS 국가통계포털   |
+| 인구관련지표    | 세대, 인구, 자동차등록, 인구이동(전입)                               | 서울 열린 데이터광장             |
+| 인구관련지표    | 출생아수(명), 사망자수(명), 혼인건수(건), 이혼건수(건)               | KOSIS 국가통계포털               |
+  
 
-#### Notebook dir에서는 데이터의 수집부터 모델 interpretation을 살펴볼 수 있습니다.
-|file|contents|
+### Notebook
+|filename|contents|
 |---|---|
-|01_Data_Wrangling.ipynb | 데이터를 수집하고 랭글링, 특성공학을 진행하였습니다.|
-|02_Exploratory_Data_Analysis.ipynb | 데이터셋을 시각화|
-|03_LightGBM_CV.ipynb | 모델선정 및 하이퍼파라미터 튜닝|
-|04_Interpretation.ipynb | 모델 Interpretation|
-|05_Summary.ipynb | 위의 절차를 수행|
-
-**NOTE** [양평동6가, 용산동2가, 노고산동, 양평동4가, 증산동, 행촌동, 우면동, 창신동, 한강로2가, 사근동, 영등포동3가]는 데이터가 충분히 확보되지 않아 예측이 정확하지 않을 수 있습니다. 이 외 법정동에서 예측가와 실거래가의 차이는 평균 5% 미만입니다. 
-
-
-## Dataset
-<img src="https://user-images.githubusercontent.com/73981982/116913564-9d522900-ac84-11eb-9f85-0919af5f92f9.png" width="90%"/>
-2018.01 ~ 2021.02, 약 245,000건의 부동산 관련된 정보와, 자산가격의 상승을 반영하기위해 금리관련지표와 주식, 선물 시세, 물가 관련 지표화, 인구관련지표를 수집하였습니다.
+|House_price_prediction_01_DataCollection&Wrangling.ipynb | 데이터 수집 및 가공, 준비 |
+|House_price_prediction_02_Exploratory_Data_Analysis.ipynb | 탐색적 데이터 분석|
+|House_price_prediction_03_Model_CV.ipynb | 베이스라인 및 최종모델 선정 (LinearRegression, RandomForest, XGBoost, LightGBM)|
+|House_price_prediction_04_Model_Interpretation.ipynb | 시각화를 통한 모델의 이해 (Feature Importance, PDP & ICE Curve, SHAP) |
 
 
 ## Schema
