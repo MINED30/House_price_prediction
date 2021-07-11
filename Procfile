@@ -1,1 +1,0 @@
-web: gunicorn 'house_app:create_app()'
