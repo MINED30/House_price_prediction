@@ -19,9 +19,8 @@
   
 :elephant:  PostgreSQL
 
-:computer:  [WEB page](https://house-predction.herokuapp.com/)
+:computer:  (WEB page closed)
 
-:computer:  [Report](https://house-predction.herokuapp.com/)
 
   
 최근 모든 자산가격이 상승하면서 집이 없던 사람들은 벼락거지가 되었다라는 말이 나오고 있습니다. 부동산에 많은 관심이 쏠린 지금, 집을 사고 파는 과정에서 생기는 부작용을 방지하고자 적정가를 제안하는 모델을 만들었습니다. 개인에게는 사기를 당하지 않도록하는 것이 이 서비스의 목적이며, 정부 및 기관에게는 집값담합을 방지하고 다운계약서가 작성된 거래를 색출해서 탈세를 막는데 목적이 있습니다.
